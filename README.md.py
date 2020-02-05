@@ -18,7 +18,8 @@ print("What is your hair colour?")
 hair_colour = input()
 
 
-print("Hello", your_name, "!", "your eye colour is",  eye_colour, "your hair colour is", hair_colour, "And you are", age, "so that means you were born in", f"{2020-age]) 
+print("Hello", your_name, "!", "your eye colour is",  eye_colour, "your hair colour is", hair_colour, "And you are", age, 
+      "so that means you were born in", f"{2020-age}) 
 
 # I want you to use operators
 # equate something
