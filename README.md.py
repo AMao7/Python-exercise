@@ -9,15 +9,27 @@
 # print something like: 'You said you we're 28 hence you were born in 1991!'
 import random
 
+<<<<<<< HEAD
 print("What is your name?")
 your_name = input().strip().capitalize()
 print("How old are you in years")
 age = int(input().strip())
+=======
+print("What is your name?")#
+your_name = input()
+print("How old are you in years")
+age = input()
+>>>>>>> 9ca9eb5fa50212311acd7c1aa5b8a00f4f287b10
 print("What colour are your eyes?")
 eye_colour = input().strip().capitalize()
 print("What is your hair colour?")
 hair_colour = input().strip().capitalize()
 
+<<<<<<< HEAD
+=======
+print("Hello", your_name, "!", "your eye colour is",  eye_colour, "your hair colour is", hair_colour, "And you are", age, 
+      "so that means you were born in", f"{2020-age}) 
+>>>>>>> 9ca9eb5fa50212311acd7c1aa5b8a00f4f287b10
 
 print("Hello", your_name, "!", "your eye colour is",  eye_colour, "your hair colour is", hair_colour, "And you are", age,
       "so that means you were born in", f"{2020-age}")
