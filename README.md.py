@@ -10,7 +10,7 @@
 
 print("What is your name?")#
 your_name = input()
-print("What year were you born in")
+print("How old are you in years")
 age = input()
 print("What colour are your eyes?")
 eye_colour = input()
@@ -18,7 +18,7 @@ print("What is your hair colour?")
 hair_colour = input()
 
 
-print("Hello", your_name, "!", "your eye colour is",  eye_colour, "and your hair colour is", hair_colour )
+print("Hello", your_name, "!", "your eye colour is",  eye_colour, "your hair colour is", hair_colour, "And you are", age, "so that means you were born in", f"{2020-age]) 
 
 # I want you to use operators
 # equate something
