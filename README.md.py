@@ -8,24 +8,21 @@
 #Section 2 - Calculate in what year was the person born? and responde back.
 # print something like: 'You said you we're 28 hence you were born in 1991!'
 
-print("What is your name?")#
+print("What is your name?")
 your_name = input()
-print("What year were you born in")
-age = input()
+print("How old are you in years")
+age = int(input())
 print("What colour are your eyes?")
 eye_colour = input()
 print("What is your hair colour?")
 hair_colour = input()
 
 
-print("Hello", your_name, "!", "your eye colour is",  eye_colour, "and your hair colour is", hair_colour )
+print("Hello", your_name, "!", "your eye colour is",  eye_colour, "your hair colour is", hair_colour, "And you are", age,
+      "so that means you were born in", f"{2020-age}")
 
-# I want you to use operators
-# equate something
-# As a user, I want to be able to guess a number and know if i got it correct or not, so that I can know if I won or not.
 
 import random
-
 print("guess a number from 1 to 10")
 guessed_number = input()
 secret_number = random.seed(10)
@@ -35,4 +32,5 @@ if guessed_number == secret_number:
 
 else:
     print("dang it! you got the wrong number! try again")
+
 
